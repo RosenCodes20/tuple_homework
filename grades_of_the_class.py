@@ -1,12 +1,12 @@
 num = int(input())
 grades_dict = {}
 for i in range(num):
-    name, grade = input().split()
+    name, grade = tuple([digit for digit in input().split(" ")])
     grade = float(grade)
 
     if name not in grades_dict:
         grades_dict[name] = []
-
+        
     grades_dict[name].append(grade)
 
 for names, grades in grades_dict.items():
