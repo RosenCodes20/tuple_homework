@@ -25,5 +25,5 @@ for names, grades in grades_dict.items():
 #    grades_dict[name].append(grade)
 #
 #for names, grades in grades_dict.items():
-#    print(f"{names} -> {', '.join([f'{grad:.2f}' for grad in grades])} (avg: {sum(grades) / len(grades):.2f})")
+#    print(f"{names} -> {' '.join([f'{grad:.2f}' for grad in grades])} (avg: {sum(grades) / len(grades):.2f})")
 
